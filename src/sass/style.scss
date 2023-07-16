@@ -5,6 +5,12 @@ body {
 .tab-container {
   width: 80%;
   margin: 0 auto;
+  .button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: green;
+  }
 }
 
 .tab-header {
@@ -14,8 +20,11 @@ body {
 }
 
 .tab-button {
+  min-width: 100px;
+  margin: 10px;
   padding: 10px 20px;
   background-color: #ccc;
+  border-radius: 100px;
   border: none;
   cursor: pointer;
 }

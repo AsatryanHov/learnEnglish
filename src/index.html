@@ -9,11 +9,11 @@
 </head>
 <body>
   <div class="tab-container">
-    <div class="tab-header">
-      <button class="tab-button active">Tab 1</button>
+    <div class="tab-header button-wrapper">
+      <button id="btn1" class="tab-button active">Tab 1</button>
       <button class="tab-button">Tab 2</button>
       <button class="tab-button">Tab 3</button>
-      <button class="tab-button">Tab 4</button>
+      <button class="tab-button">Tab 4Tab 4Tab 4Tab 4</button>
       <button class="tab-button">Tab 5</button>
       <button class="tab-button">Tab 6</button>
       <button class="tab-button">Tab 7</button>
@@ -22,15 +22,16 @@
       <button class="tab-button">Tab 10</button>
       <button class="tab-button">Tab 11</button>
       <button class="tab-button">Tab 12</button>
-      <button class="tab-button">Tab 13</button>
+      <button class="tab-button">Tab 13Tab 4Tab 4Tab 4Tab 4Tab 4Tab 4</button>
       <button class="tab-button">Tab 14</button>
       <button class="tab-button">Tab 15</button>
       <!-- Add more buttons for additional tabs -->
     </div>
     <div class="tab-content">
-      <div class="tab active">
+      <div id="descr1" class="tab active">
         <h2>Tab 1 Content</h2>
         <p>This is the content for Tab 1.</p>
+        
       </div>
       <div class="tab">
         <h2>Tab 2 Content</h2>
@@ -91,6 +92,9 @@
       <!-- Add more divs with class="tab" for additional tabs -->
     </div>
   </div>
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+  <script type="module" src="js/data.js"></script>
+  <script type="module" src="js/script.js"></script>
+
 </body>
 </html>
